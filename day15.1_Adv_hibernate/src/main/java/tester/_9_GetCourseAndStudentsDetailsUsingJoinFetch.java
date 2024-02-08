@@ -19,7 +19,7 @@ public class _9_GetCourseAndStudentsDetailsUsingJoinFetch {
 			System.out.println("Course details......");
 			System.out.println(course);
 			System.out.println("Students details......");
-			course.getStudents().forEach(System.out::println);;
+			course.getStudents().forEach(System.out::println);
 		}
 
 	}
